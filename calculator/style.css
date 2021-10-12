@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+.calc_body{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+    background-color: #fafafa;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+.result{
+background-color: crimson;
+color: #fafafa;
+border-radius: 8px 8px 0 0;
+padding: 20px;
+font-size: 2.5rem;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.buttons button{
+    width: 80px;
+    height: 80px;
+    border: none;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+.buttons button:hover{
+    background-color: crimson;
+    color: cyan;
+    transition: all 0.2s ease;
+}
+.buttons button:active{
+    background-color: #bdbdbd;
+}
+.equal{
+    background-color: crimson;
+    color: darkblue;
+}
