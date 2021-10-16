@@ -5,7 +5,9 @@
     outline: 0;
     font-family: 'Ubuntu',sans-serif;
 }
-
+body{
+    background-color: cyan;
+}
 .calc_body{
     position: absolute;
     left: 50%;
